@@ -1,8 +1,53 @@
 {
-  "database": "pizza_restaurant",
-  "user": "sudeis",
-  "password": "sudi123",
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com"
+    }
+  ],
+  "menus": [
+    {
+      "id": 1,
+      "name": "Lunch Menu",
+      "items": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 8.99
+        },
+        {
+          "id": 2,
+          "name": "Pepperoni Pizza",
+          "price": 9.99
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dinner Menu",
+      "items": [
+        {
+          "id": 3,
+          "name": "BBQ Chicken Pizza",
+          "price": 11.99
+        },
+        {
+          "id": 4,
+          "name": "Veggie Pizza",
+          "price": 10.99
+        }
+      ]
+    }
+  ],
+  "user": "your_db_user",
+  "password": "your_db_password",
   "host": "localhost",
   "port": 5432,
-  "dialect": "postgresql"
+  "database": "your_database_name"
 }
